@@ -16,12 +16,16 @@
 // const text=document.querySelector('h1')
 // text.classList.add('error')
 // text.classList.remove('error')
+const ul=document.querySelector('ul')
 const button=document.querySelector('button')
+button.addEventListener('click',()=>{
+    ul.innerHTML+='<li>somthing new text</li>'
+})
 //addEventlistener buton bosilgan bosilmaganini tikshirib
 //bosilgan bbulsa bitta funksiyani ishga tushurib yuboradi
-button,addEventListener('click',()=>{
-    console.log('item clicked')
-})
+// button,addEventListener('click',()=>{
+//     console.log('item clicked')
+// })
 const item=document.querySelectorAll('li')
 item.forEach((items)=>{
     items.addEventListener('click',(e)=>{
@@ -29,3 +33,6 @@ item.forEach((items)=>{
         e.target.style.backgroundColor=' rgb(45, 31, 200)'
     })
 })
+
+// ul.remove()
+//ewrewr
