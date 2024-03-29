@@ -10,3 +10,9 @@
 // heading.setAttribute('style','margin;50px')
 // heading.style.margin='30px'
 // heading.style.color='red'
+
+const content=document.querySelector('p')
+console.log(content.classList)
+const text=document.querySelector('h1')
+text.classList.add('error')
+text.classList.remove('error')

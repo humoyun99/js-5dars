@@ -3,7 +3,7 @@ error{
     color: aqua;
     border: 1px dotted darkblue;
 }
-success{
+.success{
     padding: 10px;
     color: limegreen;
     border: 1px dotted yellow;
