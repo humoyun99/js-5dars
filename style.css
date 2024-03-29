@@ -1,4 +1,4 @@
-error{
+/* error{
     padding: 10px;
     color: aqua;
     border: 1px dotted darkblue;
@@ -7,4 +7,30 @@ error{
     padding: 10px;
     color: limegreen;
     border: 1px dotted yellow;
+} */
+h1{
+    text-align: center;
+}
+li{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    max-width: 300px;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(45, 31, 200);
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 0;
+}
+button:hover{
+    opacity: 0.9;
 }

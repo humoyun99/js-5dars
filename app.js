@@ -11,8 +11,21 @@
 // heading.style.margin='30px'
 // heading.style.color='red'
 
-const content=document.querySelector('p')
-console.log(content.classList)
-const text=document.querySelector('h1')
-text.classList.add('error')
-text.classList.remove('error')
+// const content=document.querySelector('p')
+// console.log(content.classList)
+// const text=document.querySelector('h1')
+// text.classList.add('error')
+// text.classList.remove('error')
+const button=document.querySelector('button')
+//addEventlistener buton bosilgan bosilmaganini tikshirib
+//bosilgan bbulsa bitta funksiyani ishga tushurib yuboradi
+button,addEventListener('click',()=>{
+    console.log('item clicked')
+})
+const item=document.querySelectorAll('li')
+item.forEach((items)=>{
+    items.addEventListener('click',(e)=>{
+        // console.log(e.target)
+        e.target.style.backgroundColor=' rgb(45, 31, 200)'
+    })
+})
